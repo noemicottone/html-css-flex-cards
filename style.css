@@ -10,11 +10,39 @@ RESET
 
 
 /*********
-FONT STYLE
+FONT AND STYLE TAG
 *********/
 
 body {
     font-family: "Fredoka";
     text-align: center;
+    padding: 44px 264px;
 }
 
+p {
+    margin-top: 65px;
+}
+
+h1 {
+    color: #e53170;
+}
+
+.container {
+    display: flex;
+    max-width: 1140px;
+    margin: 0px;
+    margin-top: 55px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.col {
+    width: 250px;
+    height: 100px;
+    background-color: black;
+}
