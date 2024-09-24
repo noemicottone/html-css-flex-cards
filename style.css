@@ -45,6 +45,8 @@ h1 {
     width: 250px;
     height: 100px;
     background-color: black;
+    box-shadow: 10px 10px 5px #d8d8d7;
+    display: flex;
 }
 
 img {
@@ -52,4 +54,27 @@ img {
     height: 100px;
     display: flex;
     justify-content: flex-start;
+}
+
+.img-1 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 14px;
+    padding-bottom: 3px;
+    padding-top: 5%;
+    text-align: start;
+}
+
+.name {
+    color: #fff;
+    font-weight: 800;
+}
+
+.job {
+    color: #fff;
+}
+
+.mail {
+    color: #00b5f4;
+    font-size: 12px
 }
